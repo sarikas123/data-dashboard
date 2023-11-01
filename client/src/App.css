@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+/* Style for the entire tab container */
+.tabsClass {
+  margin: 1vw 2vw;
+  padding: 20px; /* Update the padding for consistency */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+/* Style for the tab navigation */
+.nav-tabs {
+  border-bottom: 2px solid #007bff;
+}
+
+/* Style for the active tab */
+.nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+}
+
+/* Style for the search input and button */
+.form-inline {
+  margin: 20px 0;
+}
+
+.form-control {
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+/* Style for the "Show More" button */
+.btn-primary.show-more {
+  margin-top: 20px;
+}
+
+/* Style for data cards */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the card text */
+.card .cardText {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hover effect for data cards */
+.card:hover {
+  transform: scale(0.9);
+  background-color: thistle;
+}
+
+/* Style for the card title */
+.card .card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Style for card text */
+.card .card-text {
+  margin: 10px 0;
+}
+
+/* Style for loading and no data messages */
+.loading-message {
+  margin: 1rem;
+  font-style: italic;
+}
+
+/* Style for interactive insights/accordion */
+.accordion {
+  margin: 20px 0;
+}
+
+/* Customize the filter section */
+.filters-section {
+  margin: 20px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
